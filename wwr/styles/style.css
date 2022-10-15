@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight&family=Rock+Salt&display=swap');
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -8,6 +10,11 @@ nav a{
     text-align: center;
     color:#FB9C1D;
     text-decoration:none;
+    padding: 35px;
+}
+
+#logo_link{
+    padding-top: 5px;
 }
 
 #hero-msg h1, #hero-msg h4{
@@ -25,11 +32,15 @@ main section{
 
 #background{
     height: 725px;
-    background-color: #FBE0C9;
+    background-color: #FB9C1D;
 }
 
 body{
     background-color: #FBE0C9;
+    font-family: "Inter Tight", arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header{
@@ -41,11 +52,6 @@ nav a:hover{
     color:#fefdfc;
 }
 
-.book, .join{
-    background-color: #FBE0C9;
-    text-decoration:none;
-}
-
 .book:hover, .join:hover{
     background-color: #FB9C1D;
     color: #7f4a04;
@@ -53,31 +59,48 @@ nav a:hover{
 
 .msg{
     background-color: #F9BC78;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer{
     background-color: #FBE0C9;
     color:#7f4a04;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 .home-title{
     color:#7f4a04;
+    font-family:"Rock Salt";
+    font-size: 2em;
+    margin-top: 10px;
 }
 
-h4{
+h4,h2{
     color:#7f4a04;
+    
 }
 
 .book, .join{
+    background-color: #FBE0C9;
+    text-decoration:none;
+    font-size: 18px;
+    padding: 15px 30px;
     color:#ed862d;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .msg h2{
     color:#7f4a04;
+    font-family:"Rock Salt";
 }
 
 .msg p{
     color:#7f4a04;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 
@@ -100,6 +123,7 @@ footer p a:hover {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 .logo {
@@ -110,3 +134,22 @@ footer p a:hover {
     width: 100%;
 }
 
+h2 {
+    margin: 0;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #FB9C1D;
+}
+
+main section img {
+    box-sizing: border-box;
+}
