@@ -30,6 +30,16 @@ main section{
     text-align: center;
 }
 
+header{
+    text-align: left;
+}
+
+.mountains{
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 #background{
     height: 725px;
     background-color: #FB9C1D;
