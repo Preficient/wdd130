@@ -244,6 +244,19 @@ footer p a:hover {
     text-decoration: underline;
 }  
 
+.rivers-title{
+    color:white;
+    font-family:"Rock Salt";
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+#hero-img2{
+    width: 100%;
+    opacity: 1;
+}
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
