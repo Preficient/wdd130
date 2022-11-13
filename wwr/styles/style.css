@@ -256,6 +256,34 @@ footer p a:hover {
     opacity: 1;
 }
 
+.content-rivers{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: #FBE0C9;
+    gap: 40px;
+}
+
+.rivers-box{
+    background-color: #F9BC78;
+    margin: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.left{
+    grid-column: 1/2;
+    margin: 20px;
+}
+
+.right{
+    grid-column: 2/3; 
+    margin: 20px;
+}
+
+.rivers-img{
+    width: 100%;
+    height: 100%;
+}
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
@@ -296,5 +324,8 @@ footer p a:hover {
     }
     footer {
         margin-top: 25px;
+    }
+    .rivers-title{
+        color: #562b05;
     }
 }
