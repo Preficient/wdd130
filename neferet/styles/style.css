@@ -434,12 +434,65 @@ main{
   /*lightbox fin*/
 
     .img-blog{
-        width: 400px;
-        height: 400px;
+        width: 450px;
+        height: 450px;
 }
 
 
   #img-contact{
     width: 200px;
     height: 400px;
+    text-align: right;
   }
+
+
+
+  .content-blog{
+    margin-top: 50px;
+    background-color: #78613F;
+    padding: 20px;
+    padding-bottom: 100px;
+}
+
+
+#tittle-blog{
+    grid-column: 1/3; 
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.content-right{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.content-right p{
+    grid-column: 1/2;
+    margin: 100px;
+}
+
+.content-right img{
+    grid-column: 2/3;
+    margin-right: 100px;
+}
+
+.content-left{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.content-left p{
+    grid-column: 2/3;
+    margin: 100px;
+}
+
+.content-left img{
+    grid-column: 1/2;
+    margin-left: 100px;
+}
+
+.img-blog{
+    width: 400px;
+    height: 450px;
+    text-align: center;
+}
