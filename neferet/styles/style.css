@@ -460,6 +460,7 @@ main{
     text-align: center;
     padding-top: 50px;
     padding-bottom: 10px;
+    font-family:"Cinzel";
 }
 
 .content-right{
@@ -470,6 +471,7 @@ main{
 .content-right p{
     grid-column: 1/2;
     margin: 100px;
+    font-family:"Montserrat";
 }
 
 .content-right img{
@@ -495,4 +497,27 @@ main{
     width: 400px;
     height: 450px;
     text-align: center;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+#contact-content{
+    background-color: #78613F;
+    color: #EEDF99;
+    grid-row: 2/3;
+    grid-column: 2/4;
+    margin-top: -100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5px;
+}
+
+
+.contact-content-text{
+    margin-left: 150px;
+    margin-top: 150px;
+}
+
+.contact-content-img{
+    margin-top: 20px; 
 }
