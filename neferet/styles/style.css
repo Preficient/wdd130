@@ -452,6 +452,12 @@ main{
     padding-bottom: 100px;
 }
 
+.content-aboutus{
+    background-color: #DAD6D2;
+    padding: 20px;
+    padding-bottom: 100px;
+}
+
 
 #tittle-blog{
     grid-column: 1/3; 
