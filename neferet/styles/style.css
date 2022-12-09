@@ -519,3 +519,50 @@ main{
 .contact-content-img{
     margin-top: 20px; 
 }
+
+
+@media screen and (max-width: 900px) {
+
+    #hero {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        margin-top: -10px;
+    }
+
+    #hero-img{
+        width: 100%;
+        height: 100%;
+        opacity: 0.9;
+    }
+    
+
+    main{
+        margin-top: 0px;
+    }
+    
+
+    #contact-content{
+        width: 400px;
+    }
+
+    .contact-content-text{
+        margin-left: 0px;
+    }
+
+    .content-left{
+        display: block;
+    }
+
+    .content-right{
+        display: block;
+    }
+
+    .content-left img{
+        display: none;
+    }
+
+    .content-right img{
+        margin-left: 150px;
+        margin-right: 0px;
+    }
+}
