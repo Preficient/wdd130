@@ -77,18 +77,18 @@ footer p a:hover {
 }  
 
 
-#hero {
+.hero {
     display: grid;
     grid-template-columns: 3fr 1fr;
     margin-top: -100px;
 }
 
-#hero-box {
+.hero-box {
     grid-column: 1/4;
     grid-row: 1/3;
     z-index: -1;
 }
-#hero-img{
+.hero-img{
     width: 100%;
     height: 75%;
     opacity: 0.9;
@@ -111,20 +111,20 @@ p{
     font-family: "Montserrat";
 }
 
-#hero-msg {
+.hero-msg {
     grid-column: 1/2;
     grid-row: 1/2;
     margin-top: 100px;
 }
 
-#hero-msg h1{
+.hero-msg h1{
     text-align: left;
     margin-left: 100px;
     padding: 50px;
     text-shadow: 0 0 3px #DAD6D2;
 }
 
-#hero-msg h4 {
+.hero-msg h4 {
     text-align: center;
     color: #B68E3E;
     margin-left:-100px;
@@ -132,7 +132,7 @@ p{
 
 }
 
-#hero-msg h3 {
+.hero-msg h3 {
     text-align: right;
     color: #B68E3E;
    margin-right: -325px;
@@ -545,13 +545,13 @@ main{
 
 @media screen and (max-width: 900px) {
 
-    #hero {
+    .hero {
         display: grid;
         grid-template-columns: 3fr 1fr;
         margin-top: -10px;
     }
 
-    #hero-img{
+    .hero-img{
         width: 100%;
         height: 100%;
         opacity: 0.9;
